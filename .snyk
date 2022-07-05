@@ -1,0 +1,9 @@
+# Snyk (https://snyk.io) policy file
+exclude:
+ global:
+   - package.json
+   - helm/**
+   - db.js
+   - pom.xml
+   - Dockerfile
+   - service.yaml
